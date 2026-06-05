@@ -18,7 +18,18 @@ const project = {
     "便利商店情境完成 7 輪對話",
     "N4 旅行班新增 18 張單字卡",
     "週任務完成率 86%"
-  ]
+  ],
+  "ui": {
+    "eyebrow": "情境日語學習",
+    "primaryNav": "拍照學習",
+    "capabilityNav": "學習機制",
+    "flowNav": "練習路徑",
+    "actionLabel": "開始學習",
+    "capabilityTitle": "學習機制",
+    "flowTitle": "情境練習路徑",
+    "recordTitle": "學習動態",
+    "operationNotice": "已移到拍照辨識與 AI 對話區，可新增單字並進行情境練習。"
+  }
 };
 
 const canvas = document.getElementById("visualCanvas");
@@ -198,7 +209,7 @@ function showNotice(action) {
   const notice = document.getElementById("notice");
   if (!notice) return;
   const map = {
-    operate: "操作中心已就緒，所有作業皆可處理。",
+    operate: project.ui?.operationNotice || "已定位到主要工作區。",
     deploy: "課程資源批次已建立。",
     audit: "課後統一診斷已完成。",
     start: "低衝擊訓練已開始。",
