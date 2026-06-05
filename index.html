@@ -7,35 +7,16 @@
     <title>Snap to Learn 智慧日語情境學習平台</title>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body style="--accent:#d94841;--accent2:#2156c9;--accent3:#f2c14e;--dark:#12151f">
-    <main class="shell">
-      <aside class="rail">
-        <section class="brand">
-          <span class="brand-mark">ST</span>
-          <div>
-            <strong>Snap to Learn</strong>
-            <small>拍照成教材，AI 陪練日語</small>
-          </div>
-        </section>
-        <nav class="nav" id="nav"></nav>
-        <section class="operator">
-          <span>操作身分</span>
-          <strong>全權限展示</strong>
-          <small>免登入，公開版使用模擬資料與完整操作流程。</small>
-        </section>
-      </aside>
-      <section class="workspace">
-        <header class="topbar">
-          <div>
-            <p class="eyebrow">115502 專業化展示版</p>
-            <h1 id="viewTitle"></h1>
-          </div>
-          <div id="statusLine" class="status-line"></div>
-        </header>
-        <section id="app"></section>
-      </section>
-    </main>
-    <div class="toast" id="toast"></div>
+  <body class="layout-language" style="--accent:#ef4444;--accent2:#2563eb;--dark:#14151f;--soft:#fff1ed">
+    <main class="site"><header class="topline">
+    <div class="brand"><span class="mark">SN</span><div><strong>Snap to Learn</strong><div class="muted">碎片化時間學習日語的手機使用者</div></div></div>
+    <nav class="navline"><a class="ghost" href="#outcomes">預期成果</a><a class="ghost" href="#workflow">流程</a><button class="btn" data-action="demo">模擬操作</button></nav>
+  </header><section class="language-hero"><section class="phone"><div class="phone-screen"><div class="camera-card"><canvas id="visualCanvas" class="visual" width="360" height="280" aria-label="Snap to Learn 智慧日語情境學習平台 視覺展示"></canvas></div><div class="bubble"><strong>これは何ですか？</strong><p class="muted">AI 會依程度產生假名、例句與快捷回覆。</p></div><div class="bubble"><strong>小組任務</strong><p class="muted">本週共同目標：拍攝 50 張生活單字。</p></div></div></section><section><p class="eyebrow">115502 專業化展示版</p><h1>Snap to Learn 智慧日語情境學習平台</h1><p class="muted">把日常場景變成即拍即學教材，搭配 AI 日語對話、成就徽章與學習小組維持動機。</p><section class="metric-grid">
+    <article class="metric"><span>今日辨識</span><strong>18</strong><small>照片轉單字</small></article>
+    <article class="metric"><span>AI 會話</span><strong>7</strong><small>餐廳 / 便利商店</small></article>
+    <article class="metric"><span>複習留存</span><strong>86%</strong><small>間隔複習</small></article>
+    <article class="metric"><span>小組任務</span><strong>4</strong><small>好友共學</small></article>
+  </section><div class="language-grid" style="margin-top:18px"><section class="panel" id="outcomes"><div class="section-head"><h2>文件預期成果轉譯</h2><span class="chip">Outcome</span></div><div class="feature-list"><article class="record"><strong>創造生活即教材的學習價值，將日常照片轉為客製化日語教材。</strong><small class="muted">預期成果轉化為展示介面重點。</small></article><article class="record"><strong>打造零壓力 AI 日語對話環境，提供文法修正、假名輔助與快捷回覆。</strong><small class="muted">預期成果轉化為展示介面重點。</small></article><article class="record"><strong>以成就徽章、學習小組與成長數據提升 App 開啟率與長期黏著度。</strong><small class="muted">預期成果轉化為展示介面重點。</small></article><article class="record"><strong>驗證 J-Pts、Premium 訂閱與前後端分離架構的商業可行性。</strong><small class="muted">預期成果轉化為展示介面重點。</small></article></div></section><section class="panel" id="workflow"><div class="section-head"><h2>核心流程</h2><span class="chip">Flow</span></div><div class="feature-list"><article class="record"><strong>1. 拍攝日常物品</strong><small class="muted">對應學生文件延伸出的產品流程。</small></article><article class="record"><strong>2. AI 辨識日文詞彙</strong><small class="muted">對應學生文件延伸出的產品流程。</small></article><article class="record"><strong>3. 加入例句與假名</strong><small class="muted">對應學生文件延伸出的產品流程。</small></article><article class="record"><strong>4. 進入情境會話</strong><small class="muted">對應學生文件延伸出的產品流程。</small></article><article class="record"><strong>5. 結算徽章與小組進度</strong><small class="muted">對應學生文件延伸出的產品流程。</small></article></div></section></div><section class="panel"><div class="section-head"><h2>即時紀錄</h2><span class="chip">Live demo</span></div><div class="feature-list"><article class="record"><strong>1. 便利商店情境完成 7 輪對話</strong><small class="muted">模擬營運紀錄，供公開展示使用。</small></article><article class="record"><strong>2. N4 旅行班新增 18 張單字卡</strong><small class="muted">模擬營運紀錄，供公開展示使用。</small></article><article class="record"><strong>3. 週任務完成率 86%</strong><small class="muted">模擬營運紀錄，供公開展示使用。</small></article></div><p class="notice" id="notice"></p></section></section></section></main>
     <script src="app.js"></script>
   </body>
 </html>
