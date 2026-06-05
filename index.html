@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+    <title>Snap to Learn 智慧日語情境學習平台</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body style="--accent:#d94841;--accent2:#2156c9;--accent3:#f2c14e;--dark:#12151f">
+    <main class="shell">
+      <aside class="rail">
+        <section class="brand">
+          <span class="brand-mark">ST</span>
+          <div>
+            <strong>Snap to Learn</strong>
+            <small>拍照成教材，AI 陪練日語</small>
+          </div>
+        </section>
+        <nav class="nav" id="nav"></nav>
+        <section class="operator">
+          <span>操作身分</span>
+          <strong>全權限展示</strong>
+          <small>免登入，公開版使用模擬資料與完整操作流程。</small>
+        </section>
+      </aside>
+      <section class="workspace">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">115502 專業化展示版</p>
+            <h1 id="viewTitle"></h1>
+          </div>
+          <div id="statusLine" class="status-line"></div>
+        </header>
+        <section id="app"></section>
+      </section>
+    </main>
+    <div class="toast" id="toast"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
